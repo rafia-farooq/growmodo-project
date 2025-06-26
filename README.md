@@ -1,12 +1,17 @@
 Title: Growmodo Project – Development Documentation
 
 1. Overview
-- Custom child theme built based on Figma design
-- Fully responsive design using CSS Flexbox & Grid
-- Mobile navigation using custom hamburger menu
+- Custom child theme built based on Figma design: https://www.figma.com/community/file/1314076616839640516
+- Includes:
+  a. Home page,
+  b. About page (in progress),
+  c. Properties page (an archive for all properties)
+  d. Blog page
+  e. Contact page
+  f. Single page for each property, FAQs page and Testimonials
 
 2. Theme Structure
-- Template files used: header.php, footer.php, single.php, front-page.php, 404.php and archieve pages, template parts for reusable sections.
+- Template files used: header.php, footer.php, single.php, front-page.php, 404.php and archive pages, template parts for reusable sections.
 - Custom sections: homepage hero, 3-column layout, contact form
 
 3. Tools & Plugins
@@ -15,11 +20,13 @@ Title: Growmodo Project – Development Documentation
 - Plugins used: Contact Form 7, ACF, Updraft for backup 
 
 4. Development Notes
-- Used rem/em for responsive scaling
-- CSS Grid and flexbox used for feature sections
+- A fully responsive layout that works on multiple devices (mobile, tablet, desktop)
+- CSS Grid, flexbox rem/em used for responsiveness
 - Hamburger menu with JavaScript toggle logic
 - Template parts used for reusable sections
 - Custom fields used for dynamic section so that client can easily update
+- WordPress Loop for custom post types
+- Optimize for performance
 
 5. Setup Instructions
 - Download a fresh install of WordPress to local machine
