@@ -36,3 +36,4 @@ Title: Growmodo Project – Development Documentation
 - Create a new database.
 - Import the provided database zip into the new database.
 - Run on local server
+- Zip folders for all the above: https://drive.google.com/drive/folders/1BjOjgikU8s4N4mEsyQLxFahJKlUQXAiU?usp=sharing
