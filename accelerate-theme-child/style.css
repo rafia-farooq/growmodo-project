@@ -662,8 +662,7 @@ select {
 }
 
 .about-intro p {
-    color: #f6d0abff;
-    font: 700 1em/1.75 'Nuosu SIL', serif;
+    color: #bfbfbf;
     text-transform: uppercase;
     margin: .5em 0 .5em;
 }
@@ -696,20 +695,6 @@ select {
     margin: 3.5em auto;
 }
 
-.about-us-contact-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2.5em 0;
-}
-
-.about-us-contact-section div {
-    margin: 0 1em;
-}
-
-.about-us-contact-section div h3 {
-    margin: 0;
-}
 
 /* 404 Page */
 
@@ -737,28 +722,7 @@ select {
     text-align: center;
 }
 
-/* Portfolio */
 
-.portfolio h2 {
-    color: white;
-    font: 700 4em/1.75 'Nuosu SIL', serif;
-    text-transform: capitalize;
-    margin: 0;
-}
-
-/* Newsletter sign up widget in sidebar on blog */
-
-#mc4wp-form-1 input[type="email"] {
-    width: 100%;
-    font: .875em/1.75em 'Open Sans', Arial, sans-serif;
-    font-style: italic;
-}
-
-#mc4wp-form-1 input[type="submit"] {
-    background-color: #ebad70ff;
-    padding: 0 2em;
-    width: 100%;
-}
 
 /* Sidebar on blog page */
 
@@ -812,65 +776,6 @@ select {
 .search-page .heateor_sss_sharing_container {
     display: none;
 
-}
-
-
-/* Search result page */
-
-.search-page h2:first-child {
-    font: 100 2em/1 'Playball', serif;
-}
-
-.search-page-content {
-    width: 80%;
-    margin: 3em auto;
-}
-
-.no-search-result {
-    font: 700 1.5em/1.75 'Nuosu SIL', serif;
-    text-transform: capitalize;
-    text-align: center;
-}
-
-.search-page-form {
-    width: 40%;
-    margin: 4em auto;
-}
-
-.search-page-form input[type="text"] {
-    width: 60%;
-    font: .875em/1.75em 'Open Sans', Arial, sans-serif;
-    font-style: italic;
-    border-top: 1px solid #a6a6a6;
-    border-bottom: 1px solid #a6a6a6;
-    border-left: 1px solid #a6a6a6;
-    border-right: none;
-    height: 2.6rem;
-    padding: .5em;
-    vertical-align: middle;
-}
-
-.search-page-form input[type="submit"] {
-    width: 13%;
-    border-top: 1px solid #a6a6a6;
-    border-bottom: 1px solid #a6a6a6;
-    border-right: 1px solid #a6a6a6;
-    border-left: none;
-    font: .875em/1.75em 'Open Sans', Arial, sans-serif;
-    height: 2.6rem;
-    background: url('img/white-arrow-right.png') no-repeat center #ebad70ff;
-    color: #ffffff;
-    margin-left: -5px;
-    padding: 0;
-    vertical-align: middle;
-}
-
-.search-page .searchform {
-    text-align: center;
-}
-
-.search-page #navigation {
-    width: 100%;
 }
 
 /* Media Queries */
